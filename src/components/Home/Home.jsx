@@ -1,9 +1,11 @@
 import React from 'react'
+import SectionOne from '../SectionOne/SectionOne'
 
 function Home() {
   return (
     <div>
-      doolotkeldi krasavchik
+      <SectionOne/>
+      
     </div>
   )
 }
