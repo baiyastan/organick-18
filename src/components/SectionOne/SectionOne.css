@@ -1,0 +1,87 @@
+.line{
+    width: 1795px;
+    height: 2px;
+    background-color: gray;
+}
+.images img{
+    width: 700px;
+    height: 600px;
+    top: 295px;
+    left: 250px;
+    gap: 0px;
+    border-radius: 12px 0px 0px 0px;
+    opacity: 0px;
+}
+.back{
+    margin-top: 50px;
+}
+.img-content{
+    margin-top: 50px;
+}
+.img-con{
+    margin-top: 30px;
+    display: flex;
+    gap: 20px;
+}
+.content{
+    display: flex;
+}
+.text-con{
+    margin-top: 10px;
+    margin-left: 50px;
+}
+.context h1{
+    font-family: Open Sans;
+    font-size: 48px;
+
+}
+.text{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.text p{
+    font-family: Open Sans;
+    font-size: 24px;
+    margin: 0;
+}
+.text h1{
+    font-family: Open Sans;
+    font-size: 32px;
+    color: #FA8B02;
+    margin: 0;
+}
+
+.date h1{
+    font-family: Open Sans;
+    font-size: 18px;
+    margin-top: 0;
+}
+.date img{
+    width: 302px;
+    height:304px;
+    gap: 12px;
+}
+.lorem{
+    font-family: Open Sans;
+    font-size: 18px;
+    width: 676px;
+    height: 98px;
+}
+.input h1{
+    font-family: Open Sans;
+    font-size: 18px;
+}
+.input img{
+    width:302px;
+    height: 52px;
+}
+.button button{
+   background-color: #FA8B02;
+    width: 302px;
+    height: 42px;
+    border-radius: 50px;
+    color: white;
+    border: none;
+    margin-top: 30px;
+}
