@@ -1,0 +1,34 @@
+.conatiner{
+    width: 1200px;
+    margin: 0 auto;
+}
+.info{
+    display: grid;
+}
+.number{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.number h1{
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: left;
+    margin: 0;
+    line-height: 40px;
+}
+.number p{
+    font-family: Open ;
+    font-size: 18px;
+    margin: 0;
+    line-height: 20px;
+}
+.number img{
+    width: 24px;
+    height: 24px;
+}
+.trans{
+    margin: 0;
+}
