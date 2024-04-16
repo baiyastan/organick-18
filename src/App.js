@@ -5,11 +5,10 @@ import Home from "./components/Home/Home";
 import Contact from "./components/Contact/Contact";
 function App() {
   return <div className="App">
-<<<<<<< HEAD
+
     
-    </div>;
-    
-=======
+   
+  
 
 <Routes>
   <Route path='/' element={<Layout/>}>
@@ -18,7 +17,7 @@ function App() {
   </Route> 
 </Routes>
   </div>;
->>>>>>> ee8a792e25af0b13e29bbf30916dea36124ceb2c
+
 }
 
 export default App;
