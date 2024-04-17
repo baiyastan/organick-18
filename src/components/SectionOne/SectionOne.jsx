@@ -11,7 +11,7 @@ import './SectionOne.css'
 
 function SectionOne() {
   return (
-      <div >
+      <section >
         <div className="line"></div>
         <div className="container">
 
@@ -59,7 +59,7 @@ function SectionOne() {
 
       </div>
         </div>
-    </div>
+    </section>
   )
 }
 
