@@ -9,7 +9,7 @@ import  Girl from '../../assets/svg/Girl.svg'
 
 function SectionThree() {
   return (
-    <div className='container'>
+    <div className='container section-three-container'>
         <div className="gallery">
             <h1>Gallery</h1>
             <img src={Gallery} alt="" />
@@ -22,6 +22,7 @@ function SectionThree() {
         <div className="road">
             <img src={Road} alt="" />
             <img src={Flowers} alt="" />
+            
         </div>
         <div className="conimg">
             <img src={Girl} alt="" />

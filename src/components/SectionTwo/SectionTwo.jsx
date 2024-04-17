@@ -10,16 +10,16 @@ import  Trans from '../../assets/svg/Trans.svg'
 
 function SectionTwo() {
   return (
-    <div className='conatiner'>
+    <section className='conatiner section-two-container'>
         <div className="info">
           <h1>Details</h1>
 
           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the 
-            <br /> industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
-            <br /> type and scrambled it to make a type specimen book. It has survived not only five centuries,
-            <br /> but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised 
-            <br />in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently
-            <br /> with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+             industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
+             type and scrambled it to make a type specimen book. It has survived not only five centuries,
+             but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised 
+            in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently
+             with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
         </div>
         <div className="trans">
 
@@ -60,7 +60,7 @@ function SectionTwo() {
         </div>
         </div>
 
-    </div>
+    </section>
   )
 }
 
