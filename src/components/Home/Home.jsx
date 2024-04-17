@@ -5,10 +5,11 @@ import SectionThree from '../SectionThree/SectionThree'
 
 function Home() {
   return (
-    <div>
-      <SectionOne/>
-      <SectionTwo/> 
-      <SectionThree/>
+    <div className='container'>
+      doolotkeldi
+      {/* <SectionOne/> */}
+      {/* <SectionTwo/>  */}
+      {/* <SectionThree/> */}
     </div>
   )
 }
