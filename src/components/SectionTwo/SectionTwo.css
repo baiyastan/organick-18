@@ -2,8 +2,11 @@
     width: 1200px;
     margin: 0 auto;
 }
+.section-two-container{
+    padding-top: 20px;
+}
 .info{
-    display: grid;
+    width: 539px;
 }
 .number{
     display: flex;

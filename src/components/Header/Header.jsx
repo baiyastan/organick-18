@@ -1,13 +1,11 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import './Header.css'
 import Logo from '../../assets/svg/Logo.svg'
+import './Header.css'
 
 function Header() {
   return (
     <div>
-     <Link to='/'></Link>
-     <Link to='/contact'></Link>
       <div className="container header-content">
         <div className="image">
         <img src={Logo} alt="" />
@@ -15,8 +13,8 @@ function Header() {
         <div className="header">
           <Link to='/'>Home</Link>
           <Link to='/about'>About us</Link>
-          <h3>Tour Packages</h3>
-          <h3>Contact us</h3>
+          <Link>Tour Packages</Link>
+          <Link>Contact us</Link>
         </div>
         <div className="head-but">
           <select name="" id="">

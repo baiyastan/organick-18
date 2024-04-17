@@ -13,7 +13,7 @@ function SectionOne() {
   return (
       <section >
         <div className="line"></div>
-        <div className="container">
+        <div className="container section-container">
 
         <div className="back">
             <img src={Back} alt="" />
