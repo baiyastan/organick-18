@@ -1,11 +1,11 @@
 import React from 'react'
-import AboutUs from '../components/AboutAs/AboutUs'
+import AboutUs1 from '../components/AboutUs1/AboutUs1'
+
 
 function AboutUsPage() {
   return (
     <div>
-        <AboutUs/>
-      
+      <AboutUs1/>
     </div>
   )
 }
