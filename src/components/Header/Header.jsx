@@ -12,7 +12,7 @@ function Header() {
         </div>
         <div className="header">
           <Link to='/'>Home</Link>
-          <Link to='/about'>About us</Link>
+          <Link to='/aboutus'>About us</Link>
           <Link>Tour Packages</Link>
           <Link>Contact us</Link>
         </div>
