@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+.image-position{
+    width: 1440px;
+    height: 800px;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+.image-position>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.pustoy{
+    width: 100%;
+    height: 150px;
+    position: absolute;
+    z-index: 1;
+    background-color: white;
+    top: 0;
+    left: 0;
+    opacity: 0.2;
+
+}
+.home-section{
+    height: 450px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.home-content{
+   
+    height: 300px;
+    /* background-color: gray; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.home-content>h1{
+    font-size: 72px;
+    margin: 0;
+    font-family: Dancing Script  ;
+    color: white;
+
+}
+.home-content>h2{
+    color: white;
+}
+.search-image{
+    width: 100%;
+    height: 150px;
+
+}
+.search-image>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
