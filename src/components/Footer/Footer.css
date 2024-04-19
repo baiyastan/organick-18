@@ -1,0 +1,123 @@
+footer{
+    width: 1450px;
+    height:548px;
+    background-color: rgba(51, 51, 51, 1);
+    display: flex;
+    align-items: center;
+}
+.footer-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 20px;
+    
+    position: relative;
+}
+ .logo-container img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+.logo-container{
+    width: 133px;
+    height: 130px;
+    display: grid;
+    justify-content: space-between;
+}
+
+.divider {
+    width: 1200px;
+    height: 0px;
+    border: 1px solid gray;    
+}
+
+
+.service h1, .home h1, .services h1, .help h1, .contact h1, .social-media h1 {
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 30px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+}
+
+.serviii p, .homee p, .helping p, .frame57 p {
+    font-family: Open Sans;
+    font-size: 18px;
+    color:  rgba(255, 255, 255, 1);
+}
+
+.footerBody-container {
+    display: flex;
+    justify-content: space-between;
+}
+.context{
+    display: grid;
+    gap: 20px;
+}
+.frame57{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.frame57 img {
+    width: 24px;
+    height: 24px;
+}
+.phone57{
+    display: flex;
+    align-items: center;
+    width: 332px    ;
+    gap: 10px;
+}
+.phone57 img {
+    width: 22px;
+    height: 22px;
+}
+.phone57 p{
+    margin: 0;
+    color: white;
+}
+.pochta{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.pochta img{
+    width: 22px;
+    height: 18.33px;
+}
+.pochta p{
+    margin: 0;
+    color: white;
+    font-family: Open ;
+    font-size: 18px;
+}
+.phone57>p{
+margin: 0;
+}
+.footer-h3{
+    text-align: center;
+}
+
+.frame-59 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.social-media{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.img-Social>img{
+    width: 35px;
+    height: 35px;
+}
+
+.footer-h3 {
+    color: white;
+}
