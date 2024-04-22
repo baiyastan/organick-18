@@ -5,15 +5,15 @@ import './Header.css'
 
 function Header() {
   return (
-    <div>
+    <header>
       <div className="container header-content">
         <div className="image">
         <img src={Logo} alt="" />
         </div>
         <div className="header">
           <Link to='/'>Home</Link>
-          <Link to='/about'>About us</Link>
-          <Link>Tour Packages</Link>
+          <Link to='/aboutus'>About us</Link>
+          <Link to='/hometwo'>Tour Packages</Link>
           <Link>Contact us</Link>
         </div>
         <div className="head-but">
@@ -25,7 +25,7 @@ function Header() {
         </div>
       </div>
      
-    </div>
+    </header>
   )
 }
 
