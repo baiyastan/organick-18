@@ -1,9 +1,9 @@
 import React from 'react'
-import  Gal from '../../assets/svg/Gal.svg'
+import  Gal1 from '../../assets/svg/Gal1.svg'
 import  Gallery from '../../assets/svg/Gallery.svg'
-import  Bry from '../../assets/svg/Bry.svg'
-import  Flower from '../../assets/svg/Flower.svg'
-import  Oc from '../../assets/svg/Oc.svg'
+import  Bry1 from '../../assets/svg/Bry1.svg'
+import  Flower1 from '../../assets/svg/Flower1.svg'
+import  Oc1 from '../../assets/svg/Oc1.svg'
 
 function UseSectionTree() {
   return (
@@ -15,15 +15,15 @@ function UseSectionTree() {
     <div className="condiv">
 
     <div className="bridge">
-        <img src={Gal} alt="" />
+        <img src={Gal1} alt="" />
     </div>
     <div className="road">
-        <img src={Bry} alt="" />
-        <img src={Flower} alt="" />
+        <img src={Bry1} alt="" />
+        <img src={Flower1} alt="" />
         
     </div>
     <div className="conimg">
-        <img src={Oc} alt="" />
+        <img src={Oc1} alt="" />
     </div>
 
     </div>
